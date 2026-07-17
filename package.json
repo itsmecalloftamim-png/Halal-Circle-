@@ -1,14 +1,15 @@
 {
-  "name": "halal-circle-backend",
+  "name": "r2-upload-backend",
   "version": "1.0.0",
-  "description": "Cloudflare R2 & Supabase Auth Backend for Vercel",
+  "description": "Cloudflare R2 File Upload Express Backend for Vercel",
   "main": "api/index.js",
   "scripts": {
-    "start": "node api/index.js"
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.400.0",
-    "@supabase/supabase-js": "^2.38.4",
+    "@aws-sdk/s3-request-presigner": "^3.400.0",
     "cors": "^2.8.6",
     "express": "^4.22.2",
     "multer": "^1.4.5-lts.1",
