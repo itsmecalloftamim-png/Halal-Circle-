@@ -1,11 +1,10 @@
 {
   "name": "halal-circle-backend",
   "version": "1.0.0",
-  "description": "Backend with Supabase Auth and Cloudflare R2 Uploads",
+  "description": "Vercel Express Backend with Supabase & Cloudflare R2",
   "main": "api/index.js",
   "scripts": {
-    "start": "node api/index.js",
-    "dev": "nodemon api/index.js"
+    "start": "node api/index.js"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.400.0",
